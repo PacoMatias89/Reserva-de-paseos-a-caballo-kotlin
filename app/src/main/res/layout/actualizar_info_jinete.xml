@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F0F0F0"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".RegistrarJinete">
+
+    <EditText
+        android:id="@+id/NombreJinete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Nombre Jinete"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+
+    <Spinner
+        android:id="@+id/spNombreCaballo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/Fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Fecha y hora"
+        android:clickable="true"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:inputType="none"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/Movil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Móvil"
+        android:inputType="phone"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/Observaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Observaciones"
+        android:inputType="textMultiLine"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

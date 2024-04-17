@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reserva Paseo a caballo</string>
+    <string name="informacion">Estimado jinete, las horas de los paseos son : 10:00 y 11:00, los sábados y domingos</string>
+
+    <string-array name="nombre_caballos">
+        <item>Torbellino</item>
+        <item>Relámpago</item>
+        <item>Cazador</item>
+        <item>Valiente</item>
+        <item>Furia</item>
+        <item>Tempestad</item>
+        <item>Sombra</item>
+        <item>Estrella</item>
+        <item>Rayo Dorado</item>
+        <item>Viento</item>
+    </string-array>
+
+
+</resources>

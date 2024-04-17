@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".RegistrarJinete">
+
+    <EditText
+        android:id="@+id/etNombreJinete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Nombre Jinete"
+
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spNombreCaballo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/tvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:hint="Fecha y hora"
+        android:inputType="none"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <EditText
+        android:id="@+id/etMovil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Móvil "
+        android:padding="16dp"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/etObservaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Observaciones "
+        android:padding="16dp"
+        android:textSize="16sp"
+       />
+
+    <Button
+        android:id="@+id/btnAddUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Agregar"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/info_reserva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:text="@string/informacion"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="#E8EAF6"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:fontFamily="sans-serif-light" />
+
+</LinearLayout>
